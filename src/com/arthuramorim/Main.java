@@ -18,6 +18,7 @@ public class Main {
             Carro carro1 = new Carro("HB20", 18);
             Carro carro2 = new Carro("Creta", 11);
             Carro carro3 = new Carro("Santa Fé", 9);
+            Carro carro4 = new Carro("tesla",0);
 
 
             int opcCarro;
@@ -25,23 +26,26 @@ public class Main {
             opcCarro = sc.nextInt();
             switch (opcCarro) {
                 case 1:
+
+                    Menu.menuRota(carro1);
                     break;
                 case 2: {
-                    int opcCidade = 0;
-                    System.out.println("Escolha a rota: \n 1. Lages -> Florianopolis\n 2. Florianopolis -> Joinville\n 3. Joinville -> Lages");
-                    opcCidade = sc.nextInt();
+                    Menu.menuRota(carro2);
 
                 }
                 case 3: {
                     int opcCidade = 0;
-                    System.out.println("Escolha a rota: \n 1. Lages -> Florianopolis\n 2. Florianopolis -> Joinville\n 3. Joinville -> Lages");
-                    opcCidade = sc.nextInt();
+
+                    Menu.menuRota(carro3);
+
                     }
 
             }
 
             System.out.println("Deseja continuar? <S> ou <N>");
             opcSair = sc.next().toUpperCase();
+
+
 
         }while (opcSair.equals("S")); {
             System.out.println("Obrigado!");
