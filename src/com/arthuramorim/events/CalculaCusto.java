@@ -1,8 +1,8 @@
 package com.arthuramorim.events;
 
-import com.arthuramorim.models.Carro;
-import com.arthuramorim.models.Cidade;
-import com.arthuramorim.models.Gasto;
+import com.arthuramorim.entity.Carro;
+import com.arthuramorim.entity.Cidade;
+import com.arthuramorim.entity.Gasto;
 
 public class CalculaCusto {
 

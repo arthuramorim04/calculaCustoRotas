@@ -1,4 +1,4 @@
-package com.arthuramorim.models;
+package com.arthuramorim.entity;
 
 public class Cidade {
 
